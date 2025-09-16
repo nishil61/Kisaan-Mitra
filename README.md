@@ -3,7 +3,8 @@
 A production-ready, responsive web application providing comprehensive weather monitoring, soil condition analysis, and intelligent crop suggestions across India.
 
 ## 🌟 Features
-## 🆘 Support
+
+### Mul## 🆘 Support
 
 For issues and questions:
 1. Check the [GitHub Issues](https://github.com/nishil61/Kisaan-Mitra/issues) page
@@ -13,7 +14,7 @@ For issues and questions:
 
 ---
 
-**Powered by Kisaan Mitra – Your Trusted Companion for Smart Farming & Weather Intelligence** 🌾👨‍🌾🤝Source Weather Integration
+**Powered by Kisaan Mitra – Your Trusted Companion for Smart Farming & Weather Intelligence** 🌾👨‍🌾🤝eather Integration
 - **🌐 Real-Time Data**: Live weather from OpenWeatherMap and WeatherAPI
 - **🔄 Smart Fallback**: Automatic failover between multiple APIs
 - **🌱 Soil Data**: Real soil moisture from Open-Meteo API
