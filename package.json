@@ -1,0 +1,49 @@
+{
+  "name": "kisaan-mitra",
+  "description": "Smart Farming & Weather Intelligence - Comprehensive weather monitoring, soil analysis, and intelligent crop suggestions for Indian agriculture",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "keywords": ["agriculture", "weather", "farming", "soil-analysis", "crop-suggestions", "india", "react", "typescript"],
+  "author": "Kisaan Mitra Team",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nishil61/Kisaan-Mitra.git"
+  },
+  "homepage": "https://github.com/nishil61/Kisaan-Mitra",
+  "bugs": {
+    "url": "https://github.com/nishil61/Kisaan-Mitra/issues"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.4",
+    "@types/node": "^24.3.3",
+    "framer-motion": "^12.23.12",
+    "lucide-react": "^0.344.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^3.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "@vercel/node": "^5.3.22",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.18",
+    "eslint": "^9.9.1",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.11",
+    "globals": "^15.9.0",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^8.3.0",
+    "vite": "^5.4.2"
+  }
+}
