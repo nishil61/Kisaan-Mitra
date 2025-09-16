@@ -217,10 +217,18 @@ The app includes fallback demo data, so it works even without API keys for testi
 
 ## 🛡️ Security
 
-- API keys secured via environment variables
-- CORS properly configured
-- Input validation on all endpoints
-- Rate limiting on API calls
+- **API Keys Protection**: All API keys stored in environment variables (`.env` file)
+- **Git Security**: `.env` file excluded from version control via `.gitignore`
+- **CORS Configuration**: Properly configured cross-origin resource sharing
+- **Input Validation**: All API endpoints validate user input
+- **Rate Limiting**: API calls are rate-limited to prevent abuse
+
+### 🔐 Important Security Notes:
+- ⚠️ **Never commit `.env` files** to version control
+- ✅ Use `.env.example` as template with placeholder values only
+- 🔄 Rotate API keys regularly for enhanced security
+- 🚫 Don't expose API keys in client-side code
+- 📝 Set up environment variables in your deployment platform
 
 ## 📱 Mobile Support
 
