@@ -2,22 +2,22 @@
 
 A production-ready, responsive web application providing comprehensive weather monitoring, soil condition analysis, and intelligent crop suggestions across India.
 
-## 🌟 Features
+## Features
 
 ### Multi-Source Weather Integration
-- **🌐 Real-Time Data**: Live weather from OpenWeatherMap and WeatherAPI
-- **🔄 Smart Fallback**: Automatic failover between multiple APIs
-- **🌱 Soil Data**: Real soil moisture from Open-Meteo API
-- **📊 High Reliability**: 95% accuracy with real-time data
-- **🎛️ Data Source Toggle**: Switch between live and mock data
-- **⚡ Smart Caching**: 10-minute cache for optimal performance
+- **Real-Time Data**: Live weather from OpenWeatherMap and WeatherAPI
+- **Smart Fallback**: Automatic failover between multiple APIs
+- **Soil Data**: Real soil moisture from Open-Meteo API
+- **High Reliability**: 95% accuracy with real-time data
+- **Data Source Toggle**: Switch between live and mock data
+- **Smart Caching**: 10-minute cache for optimal performance
 
 ### Intelligent Crop Suggestions
-- **🌾 70+ Indian Crops**: Comprehensive database of cereals, pulses, oilseeds, vegetables, fruits, spices, and cash crops
-- **🎯 Smart Recommendations**: AI-powered crop suggestions based on current weather and soil conditions
-- **📈 Confidence Scoring**: Each crop suggestion includes confidence rating and success probability
-- **🌡️ Climate Matching**: Temperature, humidity, and rainfall requirements for optimal crop selection
-- **💡 Agricultural Tips**: Seasonal guidance and best practices for selected crops
+- 70+ Indian Crops: Comprehensive database of cereals, pulses, oilseeds, vegetables, fruits, spices, and cash crops
+- Smart Recommendations: AI-powered crop suggestions based on current weather and soil conditions
+- Confidence Scoring: Each crop suggestion includes confidence rating and success probability
+- Climate Matching: Temperature, humidity, and rainfall requirements for optimal crop selection
+- Agricultural Tips: Seasonal guidance and best practices for selected crops
 
 ### Soil Condition Monitoring
 - Real-time soil moisture and temperature tracking
@@ -26,7 +26,7 @@ A production-ready, responsive web application providing comprehensive weather m
 - Evapotranspiration analysis
 
 ### Location Coverage
-- **🗺️ 3,180+ Locations**: Comprehensive coverage of Indian cities, districts, and villages
+- 3,180+ Locations: Comprehensive coverage of Indian cities, districts, and villages
 - Search by village name, district, or PIN code
 - GPS-based automatic location detection
 - Recent locations history
@@ -38,52 +38,52 @@ A production-ready, responsive web application providing comprehensive weather m
 - Interactive charts for temperature, rainfall, and soil conditions
 - ML-driven agricultural insights
 
-## 🌐 Weather Data Sources
+## Weather Data Sources
 
-This application supports both **real-time** and **mock** weather data:
+This application supports both real-time and mock weather data:
 
 ### Real-Time Mode (Default):
-- ✅ Live data from OpenWeatherMap & WeatherAPI  
-- ✅ Real soil moisture from Open-Meteo
-- ✅ 95% reliability score
-- ✅ Updates every 10 minutes
+- Live data from OpenWeatherMap & WeatherAPI  
+- Real soil moisture from Open-Meteo
+- 95% reliability score
+- Updates every 10 minutes
 
 ### Mock Mode (Fallback):
-- ✅ Consistent location-based simulation
-- ✅ Seasonal weather patterns  
-- ✅ 88% reliability score
-- ✅ Perfect for testing/demos
+- Consistent location-based simulation
+- Seasonal weather patterns  
+- 88% reliability score
+- Perfect for testing/demos
 
-**Toggle between modes** using the data source button in the top-right corner!
+Toggle between modes using the data source button in the top-right corner!
 
-## 🚀 Tech Stack
+## Tech Stack
 
-- **Frontend**: React 18, TypeScript, TailwindCSS
-- **Animation**: Framer Motion
-- **Charts**: Recharts  
-- **Icons**: Lucide React
-- **Backend**: Vercel Serverless Functions
-- **APIs**: OpenWeatherMap, WeatherAPI, Open-Meteo, Nominatim Geocoding
-- **Caching**: In-memory caching with 10-minute refresh
-- **Deployment**: Vercel
+- Frontend: React 18, TypeScript, TailwindCSS
+- Animation: Framer Motion
+- Charts: Recharts  
+- Icons: Lucide React
+- Backend: Vercel Serverless Functions
+- APIs: OpenWeatherMap, WeatherAPI, Open-Meteo, Nominatim Geocoding
+- Caching: In-memory caching with 10-minute refresh
+- Deployment: Vercel
 
-## 📦 Installation
+## Installation
 
 1. Clone the repository:
-```bash
-git clone https://github.com/nishil61/Kisaan-Mitra.git
-cd Kisaan-Mitra
-```
+    ```
+    git clone https://github.com/nishil61/Kisaan-Mitra.git
+    cd Kisaan-Mitra
+    ```
 
 2. Install dependencies:
-```bash
-npm install
-```
+    ```
+    npm install
+    ```
 
 3. Set up environment variables:
-```bash
-cp .env.example .env
-```
+    ```
+    cp .env.example .env
+    ```
 
 4. Get your API keys:
    - [OpenWeatherMap](https://openweathermap.org/api) - Free tier: 1,000 calls/day
@@ -91,25 +91,23 @@ cp .env.example .env
    - [OpenCage Geocoding](https://opencagedata.com/api) - Free tier: 2,500 requests/day (Optional - fallback database included)
 
 5. Update `.env` with your API keys:
-```env
-OPENWEATHER_API_KEY=your_key_here
-WEATHERAPI_KEY=your_key_here
-OPENCAGE_API_KEY=your_key_here
-```
+    ```
+    OPENWEATHER_API_KEY=your_key_here
+    WEATHERAPI_KEY=your_key_here
+    OPENCAGE_API_KEY=your_key_here
+    ```
 
-## 🖥️ Development
+## Development
 
 Run the development server:
-```bash
+```
 npm run dev
 ```
-
 The app will be available at `http://localhost:5173`
 
-## 🚀 Deployment
+## Deployment
 
 ### Vercel Deployment (Recommended)
-
 1. Push your code to GitHub
 2. Connect your repository to Vercel
 3. Add your environment variables in Vercel dashboard
@@ -121,67 +119,67 @@ Set these in your Vercel dashboard:
 - `WEATHERAPI_KEY`
 - `OPENCAGE_API_KEY`
 
-## � Agricultural Intelligence
+## Agricultural Intelligence
 
 ### Comprehensive Crop Database
 Kisaan Mitra includes an extensive database of 70+ Indian crops across multiple categories:
 
-#### **Cereals & Millets** 🌾
+#### Cereals & Millets
 Rice, Wheat, Maize, Bajra, Jowar, Ragi, Foxtail Millet, Kodo Millet, Little Millet, Barnyard Millet
 
-#### **Pulses** 🫘
+#### Pulses
 Arhar, Chana, Masoor, Moong, Urad, Rajma, Cowpea, Field Pea, Lathyrus, Horse Gram
 
-#### **Oilseeds** 🌻
+#### Oilseeds
 Groundnut, Mustard, Sesame, Safflower, Niger, Sunflower, Soybean, Castor, Linseed
 
-#### **Cash Crops** 💰
+#### Cash Crops
 Cotton, Sugarcane, Jute, Tobacco, Indigo
 
-#### **Vegetables** 🥬
+#### Vegetables
 Tomato, Potato, Onion, Cabbage, Cauliflower, Brinjal, Okra, Bottle Gourd, Ridge Gourd, Bitter Gourd, Cucumber, Watermelon, Muskmelon, Pumpkin, Carrot, Radish, Beans, Peas
 
-#### **Fruits** 🍎
+#### Fruits
 Mango, Banana, Grapes, Orange, Apple, Pomegranate, Guava, Papaya, Litchi, Coconut
 
-#### **Spices** 🌶️
+#### Spices
 Chili, Turmeric, Coriander, Cumin, Fenugreek, Ginger, Garlic, Black Pepper, Cardamom
 
-#### **Fodder Crops** 🌱
+#### Fodder Crops
 Berseem, Lucerne, Oats, Maize Fodder, Jowar Fodder
 
 ### Smart Recommendation Engine
-- **Climate Analysis**: Matches crop requirements with current weather patterns
-- **Soil Compatibility**: Considers soil moisture, temperature, and pH levels
-- **Seasonal Timing**: Recommends optimal planting and harvesting windows
-- **Confidence Scoring**: Each recommendation includes success probability
-- **Risk Assessment**: Identifies potential challenges and mitigation strategies
+- Climate Analysis: Matches crop requirements with current weather patterns
+- Soil Compatibility: Considers soil moisture, temperature, and pH levels
+- Seasonal Timing: Recommends optimal planting and harvesting windows
+- Confidence Scoring: Each recommendation includes success probability
+- Risk Assessment: Identifies potential challenges and mitigation strategies
 
-## �🎯 API Endpoints
+## API Endpoints
 
 ### `/api/weather`
-- **Method**: GET
-- **Params**: `lat`, `lon`
-- **Response**: Consolidated weather and soil data
-- **Caching**: 10 minutes
+- Method: GET
+- Params: `lat`, `lon`
+- Response: Consolidated weather and soil data
+- Caching: 10 minutes
 
 ### `/api/geocode`
-- **Method**: GET  
-- **Params**: `q` (search query)
-- **Response**: Location search results
-- **Coverage**: India-focused
+- Method: GET  
+- Params: `q` (search query)
+- Response: Location search results
+- Coverage: India-focused
 
-## 🧪 Features Demo
+## Features Demo
 
 The app includes fallback demo data, so it works even without API keys for testing purposes. However, for production use, proper API keys are essential.
 
 ### Demo Locations
-- Try searching: "Mumbai", "Bangalore", "Delhi", "Pune", "Chennai"
+- Try searching: [translate:Mumbai], [translate:Bangalore], [translate:Delhi], [translate:Pune], [translate:Chennai]
 - Use GPS location for real-time local data
 - Explore 14-day forecasts and soil analytics
 - Test crop suggestions based on current conditions
 
-## 🔧 Customization
+## Customization
 
 ### Adding New Weather APIs
 1. Add API call in `/api/weather.ts`
@@ -198,37 +196,37 @@ The app includes fallback demo data, so it works even without API keys for testi
 - Modify animations in components
 - Add new chart types with Recharts
 
-## 📊 Performance
+## Performance
 
-- **API Response Time**: <500ms average
-- **Caching**: 10-minute intelligent caching
-- **Mobile Performance**: Optimized for 3G networks
-- **Bundle Size**: <2MB total
-- **Lighthouse Score**: 95+ on all metrics
+- API Response Time: <500ms average
+- Caching: 10-minute intelligent caching
+- Mobile Performance: Optimized for 3G networks
+- Bundle Size: <2MB total
+- Lighthouse Score: 95+ on all metrics
 
-## 🛡️ Security
+## Security
 
-- **API Keys Protection**: All API keys stored in environment variables (`.env` file)
-- **Git Security**: `.env` file excluded from version control via `.gitignore`
-- **CORS Configuration**: Properly configured cross-origin resource sharing
-- **Input Validation**: All API endpoints validate user input
-- **Rate Limiting**: API calls are rate-limited to prevent abuse
+- API Keys Protection: All API keys stored in environment variables (`.env` file)
+- Git Security: `.env` file excluded from version control via `.gitignore`
+- CORS Configuration: Properly configured cross-origin resource sharing
+- Input Validation: All API endpoints validate user input
+- Rate Limiting: API calls are rate-limited to prevent abuse
 
-### 🔐 Important Security Notes:
-- ⚠️ **Never commit `.env` files** to version control
-- ✅ Use `.env.example` as template with placeholder values only
-- 🔄 Rotate API keys regularly for enhanced security
-- 🚫 Don't expose API keys in client-side code
-- 📝 Set up environment variables in your deployment platform
+### Important Security Notes:
+- Never commit `.env` files to version control
+- Use `.env.example` as template with placeholder values only
+- Rotate API keys regularly for enhanced security
+- Don't expose API keys in client-side code
+- Set up environment variables in your deployment platform
 
-## 📱 Mobile Support
+## Mobile Support
 
 - Responsive design (mobile-first)
 - Touch-optimized interactions
 - Offline capability with cached data
 - Progressive Web App features
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -236,11 +234,11 @@ The app includes fallback demo data, so it works even without API keys for testi
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📄 License
+## License
 
 MIT License - see LICENSE file for details
 
-## 🆘 Support
+## Support
 
 For issues and questions:
 1. Check the GitHub Issues page
@@ -250,4 +248,4 @@ For issues and questions:
 
 ---
 
-**Powered by Kisaan Mitra – Your Trusted Companion for Smart Farming & Weather Intelligence** �👨‍🌾🤝
+Powered by Kisaan Mitra – Your Trusted Companion for Smart Farming & Weather Intelligence
